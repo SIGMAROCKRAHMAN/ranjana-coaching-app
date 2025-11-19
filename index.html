@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Gemini Pocket AI</title>
-    <!-- Tailwind CSS via CDN for rapid UI development -->
+    <title>Ranjana Coaching Classes</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              primary: '#3B82F6',
+              primary: '#b91c1c',
               secondary: '#8B5CF6',
-              background: '#0f172a',
-              surface: '#1e293b',
+              background: '#f9fafb',
+              surface: '#ffffff',
             },
             animation: {
               'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
@@ -25,23 +24,12 @@
       }
     </script>
     <style>
-      /* Custom scrollbar for webkit */
-      ::-webkit-scrollbar {
-        width: 6px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #4b5563;
-        border-radius: 3px;
-      }
-      /* Prevent pull-to-refresh on mobile */
-      body {
-        overscroll-behavior-y: none;
-      }
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 2px; }
+      body { overscroll-behavior-y: none; }
     </style>
-<script type="importmap">
+  <script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
@@ -56,7 +44,7 @@
 }
 </script>
 </head>
-  <body class="bg-background text-white antialiased h-screen w-screen overflow-hidden">
+  <body class="bg-gray-50 text-gray-900 antialiased h-screen w-screen overflow-hidden">
     <div id="root" class="h-full w-full flex flex-col"></div>
     <script type="module" src="/index.tsx"></script>
   </body>

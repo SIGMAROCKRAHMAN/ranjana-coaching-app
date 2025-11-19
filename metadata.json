@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Ranjana Coaching Classes",
+  "description": "Official App for Ranjana Coaching Classes. Features Video Lectures, PDF Notes, AI Doubt Solving, and Quizzes.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
